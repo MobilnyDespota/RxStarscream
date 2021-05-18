@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => 'https://github.com/RxSwiftCommunity/RxStarscream.git', :tag => spec.version.to_s }
   spec.source_files     = 'Source/*.swift'
   spec.requires_arc     = true
-  spec.ios.deployment_target = '8.0'
+  spec.ios.deployment_target = '9.0'
   spec.osx.deployment_target = '10.10'
   spec.dependency 'Starscream', '>= 3'
   spec.dependency 'RxSwift', '>= 5'
